@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-data" tests="9" time="0.169">
+  <testsuite name="event_error_4xx / 05 http://localhost:48080/api/v1/event" id="9ba8902d-f352-45dd-9150-b2436c5e1f78" tests="2" failures="0" errors="0" time="0.082">
+    <testcase name="Status code is 404" time="0.082"/>
+    <testcase name="Response time is less than 800ms" time="0.082"/>
+  </testsuite>
+  <testsuite name="event_error_4xx / 16 http://localhost:48080/api/v1/event/id/:id" id="38bc2572-f985-43b9-bda2-9d81ebc319e6" tests="2" failures="0" errors="0" time="0.007">
+    <testcase name="Status code is 404" time="0.007"/>
+    <testcase name="Response time is less than 800ms" time="0.007"/>
+  </testsuite>
+  <testsuite name="event_error_4xx / 13 http://localhost:48080/api/v1/event/id/:id" id="ba21c940-c75d-45a1-a431-7ab4222657fd" tests="2" failures="0" errors="0" time="0.010">
+    <testcase name="Status code is 404" time="0.010"/>
+    <testcase name="Response time is less than 800ms" time="0.010"/>
+  </testsuite>
+  <testsuite name="event_error_4xx / 18 http://localhost:48080/api/v1/event/device/:deviceId/{limit}" id="b22f01e1-0e2e-42d8-84b7-b93dfe8557da" tests="1" failures="0" errors="0" time="0.004">
+    <testcase name="Response time is less than 800ms" time="0.004"/>
+  </testsuite>
+  <testsuite name="event_error_4xx / 100 http://localhost:48080/api/v1/event/device/:deviceId" id="0789a848-ed01-45e7-b9eb-9f4bb13e578b" tests="1" failures="0" errors="0" time="0.009">
+    <testcase name="Response time is less than 800ms" time="0.009"/>
+  </testsuite>
+  <testsuite name="event_error_4xx / 22 http://localhost:48080/api/v1/event/device/:deviceId" id="47f9838e-30f4-4047-b348-ff19751509ae" tests="1" failures="0" errors="0" time="0.006">
+    <testcase name="Response time is less than 800ms" time="0.006"/>
+  </testsuite>
+  <testsuite name="event_error_4xx / 11 http://localhost:48080/api/v1/event/:id" id="ca2749a4-dbe6-44c1-b06f-87ed671e7f83" tests="2" failures="0" errors="0" time="0.011">
+    <testcase name="Status code is 404" time="0.011"/>
+    <testcase name="Response time is less than 200ms" time="0.011"/>
+  </testsuite>
+  <testsuite name="event_error_4xx / 26 http://localhost:48080/api/v1/event/:start/{end}/{limit}" id="6b54848c-05b4-4287-8b88-d40d1f225d56" tests="2" failures="0" errors="0" time="0.023">
+    <testcase name="Status code is 413" time="0.023"/>
+    <testcase name="Response time is less than 200ms" time="0.023"/>
+  </testsuite>
+  <testsuite name="event_error_4xx / 29 http://localhost:48080/api/v1/event/device/:deviceId/valuedescriptor/{valuedescriptor}/{limit}" id="18c7306d-ace1-42d9-878b-090cea3a30e4" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Status code is 413" time="0.017"/>
+    <testcase name="Response time is less than 200ms" time="0.017"/>
+  </testsuite>
+</testsuites>

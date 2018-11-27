@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-metadata" tests="5" time="0.040">
+  <testsuite name="devicereport_error_4xx / 182 http://localhost:48081/api/v1/devicereport" id="2f0d96f3-5abf-47e3-8b25-12bf68c3c284" tests="0" failures="0" errors="0" time="0.021"/>
+  <testsuite name="devicereport_error_4xx / 185 http://localhost:48081/api/v1/devicereport" id="7e0ccc00-8172-43d8-9644-2c54926b3e86" tests="0" failures="0" errors="0" time="0.005"/>
+  <testsuite name="devicereport_error_4xx / 168 http://localhost:48081/api/v1/devicereport/id/{DeviceReportId}" id="d5433c11-3077-49cf-b313-e38433ea0b1b" tests="4" failures="0" errors="0" time="0.003">
+    <testcase name="Status code is 404" time="0.003"/>
+    <testcase name="Response time is less than 200ms" time="0.003"/>
+    <testcase name="Has Content-Type" time="0.003"/>
+    <testcase name="Content-Type is text/plain" time="0.003"/>
+  </testsuite>
+  <testsuite name="devicereport_error_4xx / 171 http://localhost:48081/api/v1/devicereport/name/{DeviceReportName}" id="5391732e-ab68-45bb-954f-8d48ee9424f7" tests="4" failures="0" errors="0" time="0.008">
+    <testcase name="Status code is 404" time="0.008"/>
+    <testcase name="Response time is less than 200ms" time="0.008"/>
+    <testcase name="Has Content-Type" time="0.008"/>
+    <testcase name="Content-Type is text/plain" time="0.008"/>
+  </testsuite>
+  <testsuite name="devicereport_error_4xx / 188 http://localhost:48081/api/v1/devicereport" id="487b1e33-5e17-45ab-919e-c24f85f03a5b" tests="0" failures="0" errors="0" time="0.003"/>
+</testsuites>

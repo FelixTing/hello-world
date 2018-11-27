@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-data" tests="13" time="0.108">
+  <testsuite name="reading / 41 http://localhost:48080/api/v1/reading" id="9caf7ebd-09b3-4c4a-a345-b588fecf1448" tests="5" failures="0" errors="0" time="0.023">
+    <testcase name="Status code is 200" time="0.023"/>
+    <testcase name="Response time is less than 800ms" time="0.023"/>
+    <testcase name="Has Content-Type" time="0.023"/>
+    <testcase name="Content-Type is application/json" time="0.023"/>
+    <testcase name="Is Valid Response Schema" time="0.023"/>
+  </testsuite>
+  <testsuite name="reading / 37 http://localhost:48080/api/v1/reading" id="645f0d8c-eafb-4717-8108-d6e9d4053869" tests="5" failures="0" errors="0" time="0.011">
+    <testcase name="Status code is 200" time="0.011"/>
+    <testcase name="Response time is less than 800ms" time="0.011"/>
+    <testcase name="Has Content-Type" time="0.011"/>
+    <testcase name="Content-Type is application/json" time="0.011"/>
+    <testcase name="Body has True" time="0.011"/>
+  </testsuite>
+  <testsuite name="reading / 34 http://localhost:48080/api/v1/reading" id="36e1a822-8cf0-4155-ace3-fc29ff295a4d" tests="5" failures="0" errors="0" time="0.008">
+    <testcase name="Status code is 200" time="0.008"/>
+    <testcase name="Response time is less than 200ms" time="0.008"/>
+    <testcase name="Has Content-Type" time="0.008"/>
+    <testcase name="Content-Type is text/plain" time="0.008"/>
+    <testcase name="Response Object id" time="0.008"/>
+  </testsuite>
+  <testsuite name="reading / 44 http://localhost:48080/api/v1/reading/:id" id="6614ff9f-18d8-40d9-a10f-e27f5b39f0b3" tests="5" failures="0" errors="0" time="0.004">
+    <testcase name="Status code is 200" time="0.004"/>
+    <testcase name="Response time is less than 800ms" time="0.004"/>
+    <testcase name="Has Content-Type" time="0.004"/>
+    <testcase name="Content-Type is application/json" time="0.004"/>
+    <testcase name="Is Valid Response Schema" time="0.004"/>
+  </testsuite>
+  <testsuite name="reading / 46 http://localhost:48080/api/v1/reading/id/:id" id="cf56692f-3d7c-4321-9006-9756dcd028ad" tests="5" failures="0" errors="0" time="0.002">
+    <testcase name="Status code is 200" time="0.002"/>
+    <testcase name="Response time is less than 800ms" time="0.002"/>
+    <testcase name="Has Content-Type" time="0.002"/>
+    <testcase name="Content-Type is application/json" time="0.002"/>
+    <testcase name="Request Objec Deleted" time="0.002"/>
+  </testsuite>
+  <testsuite name="reading / 49 http://localhost:48080/api/v1/reading/device/:deviceId/{limit}" id="8c711f78-89ba-4c8b-886c-43523393b4c5" tests="5" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 200" time="0.005"/>
+    <testcase name="Response time is less than 800ms" time="0.005"/>
+    <testcase name="Has Content-Type" time="0.005"/>
+    <testcase name="Content-Type is application/json" time="0.005"/>
+    <testcase name="Is Reading empty" time="0.005"/>
+  </testsuite>
+  <testsuite name="reading / 53 http://localhost:48080/api/v1/reading/name/:name/{limit}" id="524f1aa7-c6dd-448d-9033-92c9d28fb0aa" tests="6" failures="0" errors="0" time="0.003">
+    <testcase name="Status code is 200" time="0.003"/>
+    <testcase name="Response time is less than 800ms" time="0.003"/>
+    <testcase name="Has Content-Type" time="0.003"/>
+    <testcase name="Content-Type is application/json" time="0.003"/>
+    <testcase name="Is record count is equal or less than limit" time="0.003"/>
+    <testcase name="Is valid response schema" time="0.003"/>
+  </testsuite>
+  <testsuite name="reading / 56 http://localhost:48080/api/v1/reading/uomlabel/:uomLabel/{limit}" id="c1cd2d79-fd16-4ffd-8e22-365c4b8adb3e" tests="5" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 200" time="0.005"/>
+    <testcase name="Response time is less than 800ms" time="0.005"/>
+    <testcase name="Has Content-Type" time="0.005"/>
+    <testcase name="Content-Type is application/json" time="0.005"/>
+    <testcase name="Is Reading empty" time="0.005"/>
+  </testsuite>
+  <testsuite name="reading / 59 http://localhost:48080/api/v1/reading/label/:label/{limit}" id="c18c4dfe-7dd5-4e44-ad3e-f1ef0cb38e64" tests="5" failures="0" errors="0" time="0.030">
+    <testcase name="Status code is 200" time="0.030"/>
+    <testcase name="Response time is less than 800ms" time="0.030"/>
+    <testcase name="Has Content-Type" time="0.030"/>
+    <testcase name="Content-Type is application/json" time="0.030"/>
+    <testcase name="Is Reading empty" time="0.030"/>
+  </testsuite>
+  <testsuite name="reading / 62 http://localhost:48080/api/v1/reading/type/:type/{limit}" id="3ae7b331-2371-462e-a49e-e4cfd7719f9b" tests="6" failures="0" errors="0" time="0.008">
+    <testcase name="Status code is 200" time="0.008"/>
+    <testcase name="Response time is less than 800ms" time="0.008"/>
+    <testcase name="Has Content-Type" time="0.008"/>
+    <testcase name="Content-Type is application/json" time="0.008"/>
+    <testcase name="Is record count is equal or less than limit" time="0.008"/>
+    <testcase name="Is valid response schema" time="0.008"/>
+  </testsuite>
+  <testsuite name="reading / 65 http://localhost:48080/api/v1/reading/:start/{end}/{limit}" id="93d3d197-2522-4e5c-80b2-6b85cd35aaf8" tests="5" failures="0" errors="0" time="0.002">
+    <testcase name="Status code is 200" time="0.002"/>
+    <testcase name="Response time is less than 800ms" time="0.002"/>
+    <testcase name="Has Content-Type" time="0.002"/>
+    <testcase name="Content-Type is application/json" time="0.002"/>
+    <testcase name="Is Reading empty" time="0.002"/>
+  </testsuite>
+  <testsuite name="reading / 35 reading can be added without checking the matching value descriptor" id="7a678b0f-f9f4-45cd-a7cd-7756064646ed" tests="5" failures="0" errors="0" time="0.002">
+    <testcase name="Status code is 200" time="0.002"/>
+    <testcase name="Response time is less than 200ms" time="0.002"/>
+    <testcase name="Has Content-Type" time="0.002"/>
+    <testcase name="Content-Type is text/plain" time="0.002"/>
+    <testcase name="Response Object id" time="0.002"/>
+  </testsuite>
+  <testsuite name="reading / 39 reading can be updated without checking the matching value descriptor " id="81413859-7737-43b5-a23f-542f3faa9292" tests="5" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 200" time="0.005"/>
+    <testcase name="Response time is less than 800ms" time="0.005"/>
+    <testcase name="Has Content-Type" time="0.005"/>
+    <testcase name="Content-Type is application/json" time="0.005"/>
+    <testcase name="Body has True" time="0.005"/>
+  </testsuite>
+</testsuites>

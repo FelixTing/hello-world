@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-data" tests="17" time="0.415">
+  <testsuite name="event / 07 http://localhost:48080/api/v1/event" id="04c30a64-e2f4-4e32-bf44-de636fa0abfb" tests="5" failures="0" errors="0" time="0.160">
+    <testcase name="Status code is 200" time="0.160"/>
+    <testcase name="Response time is less than 800ms" time="0.160"/>
+    <testcase name="Has Content-Type" time="0.160"/>
+    <testcase name="Content-Type is application/json" time="0.160"/>
+    <testcase name="Is Valid Response Schema" time="0.160"/>
+  </testsuite>
+  <testsuite name="event / 04 http://localhost:48080/api/v1/event" id="0b9582e6-aef9-43db-97b1-6f50d6cec23d" tests="5" failures="0" errors="0" time="0.020">
+    <testcase name="Status code is 200" time="0.020"/>
+    <testcase name="Response time is less than 800ms" time="0.020"/>
+    <testcase name="Has Content-Type" time="0.020"/>
+    <testcase name="Content-Type is application/json" time="0.020"/>
+    <testcase name="Body has True" time="0.020"/>
+  </testsuite>
+  <testsuite name="event / 95 http://localhost:48080/api/v1/event " id="a8161e41-b0d7-483e-bfbe-e20db4881d6c" tests="5" failures="0" errors="0" time="0.020">
+    <testcase name="Status code is 200" time="0.020"/>
+    <testcase name="Response time is less than 800ms" time="0.020"/>
+    <testcase name="Has Content-Type" time="0.020"/>
+    <testcase name="Content-Type is text/plain" time="0.020"/>
+    <testcase name="Is Body Conatins Id" time="0.020"/>
+  </testsuite>
+  <testsuite name="event / 10 http://localhost:48080/api/v1/event/:id" id="0f8307e5-9585-470f-a25e-f02f32f86376" tests="5" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 200" time="0.005"/>
+    <testcase name="Response time is less than 800ms" time="0.005"/>
+    <testcase name="Has Content-Type" time="0.005"/>
+    <testcase name="Content-Type is application/json" time="0.005"/>
+    <testcase name="Is Valid Response Schema" time="0.005"/>
+  </testsuite>
+  <testsuite name="event / 15 http://localhost:48080/api/v1/event/id/:id" id="c523e65d-7e11-40d7-86f1-527cf8eadc46" tests="5" failures="0" errors="0" time="0.025">
+    <testcase name="Status code is 200" time="0.025"/>
+    <testcase name="Response time is less than 800ms" time="0.025"/>
+    <testcase name="Has Content-Type" time="0.025"/>
+    <testcase name="Content-Type is application/json" time="0.025"/>
+    <testcase name="Body has True" time="0.025"/>
+  </testsuite>
+  <testsuite name="event / 12 http://localhost:48080/api/v1/event/id/:id" id="d162a92e-80ff-40e8-966c-db36602ba5d0" tests="5" failures="0" errors="0" time="0.013">
+    <testcase name="Status code is 200" time="0.013"/>
+    <testcase name="Response time is less than 800ms" time="0.013"/>
+    <testcase name="Has Content-Type" time="0.013"/>
+    <testcase name="Content-Type is application/json" time="0.013"/>
+    <testcase name="Body has True" time="0.013"/>
+  </testsuite>
+  <testsuite name="event / 94 http://localhost:48080/api/v1/event/device/:deviceId/{limit}" id="94e3d444-4995-41e9-8dce-a35634a040b3" tests="6" failures="0" errors="0" time="0.010">
+    <testcase name="Status code is 200" time="0.010"/>
+    <testcase name="Response time is less than 800ms" time="0.010"/>
+    <testcase name="Has Content-Type" time="0.010"/>
+    <testcase name="Content-Type is application/json" time="0.010"/>
+    <testcase name="Is record count is equal or less than limit" time="0.010"/>
+    <testcase name="Is valid response schema" time="0.010"/>
+  </testsuite>
+  <testsuite name="event / 98 http://localhost:48080/api/v1/event/device/:deviceId/{limit}" id="e55c459a-1452-4502-b79e-798727de21d5" tests="6" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 200" time="0.005"/>
+    <testcase name="Response time is less than 800ms" time="0.005"/>
+    <testcase name="Has Content-Type" time="0.005"/>
+    <testcase name="Content-Type is application/json" time="0.005"/>
+    <testcase name="Is record count is equal or less than limit" time="0.005"/>
+    <testcase name="Is valid response schema" time="0.005"/>
+  </testsuite>
+  <testsuite name="event / 21 http://localhost:48080/api/v1/event/device/:deviceId" id="e3d180f9-bfb2-46e9-b8a5-694212feafe3" tests="5" failures="0" errors="0" time="0.044">
+    <testcase name="Status code is 200" time="0.044"/>
+    <testcase name="Response time is less than 800ms" time="0.044"/>
+    <testcase name="Has Content-Type" time="0.044"/>
+    <testcase name="Content-Type is application/json" time="0.044"/>
+    <testcase name="Is items deleted" time="0.044"/>
+  </testsuite>
+  <testsuite name="event / 99 http://localhost:48080/api/v1/event/device/:deviceId" id="9b8caedc-73c5-4757-8099-62cc09eb4371" tests="5" failures="0" errors="0" time="0.014">
+    <testcase name="Status code is 200" time="0.014"/>
+    <testcase name="Response time is less than 800ms" time="0.014"/>
+    <testcase name="Has Content-Type" time="0.014"/>
+    <testcase name="Content-Type is application/json" time="0.014"/>
+    <testcase name="Is items deleted" time="0.014"/>
+  </testsuite>
+  <testsuite name="event / 24 http://localhost:48080/api/v1/event/:start/{end}/{limit}" id="820d7f9d-3ea0-4723-9a33-269156053cfa" tests="6" failures="0" errors="0" time="0.006">
+    <testcase name="Status code is 200" time="0.006"/>
+    <testcase name="Response time is less than 800ms" time="0.006"/>
+    <testcase name="Has Content-Type" time="0.006"/>
+    <testcase name="Content-Type is application/json" time="0.006"/>
+    <testcase name="Is record count is equal or less than limit" time="0.006"/>
+    <testcase name="Is valid response schema" time="0.006"/>
+  </testsuite>
+  <testsuite name="event / 27 http://localhost:48080/api/v1/event/device/:deviceId/valuedescriptor/{valuedescriptor}/{limit} " id="efebd988-f51d-414e-82eb-b2471e9f40d8" tests="5" failures="0" errors="0" time="0.018">
+    <testcase name="Status code is 200" time="0.018"/>
+    <testcase name="Response time is less than 800ms" time="0.018"/>
+    <testcase name="Has Content-Type" time="0.018"/>
+    <testcase name="Content-Type is application/json" time="0.018"/>
+    <testcase name="Is Valid Response Schema" time="0.018"/>
+  </testsuite>
+  <testsuite name="event / 30 http://localhost:48080/api/v1/event/removeold/age/:age" id="f3e9da97-2156-47d2-a9e5-9aacc5e92cac" tests="5" failures="0" errors="0" time="0.006">
+    <testcase name="Status code is 200" time="0.006"/>
+    <testcase name="Response time is less than 800ms" time="0.006"/>
+    <testcase name="Has Content-Type" time="0.006"/>
+    <testcase name="Content-Type is application/json" time="0.006"/>
+    <testcase name="Is items deleted" time="0.006"/>
+  </testsuite>
+  <testsuite name="event / 32 http://localhost:48080/api/v1/event/scrub" id="f82ec121-f6f1-465b-9d69-29a0e8a9d173" tests="5" failures="0" errors="0" time="0.033">
+    <testcase name="Status code is 200" time="0.033"/>
+    <testcase name="Response time is less than 800ms" time="0.033"/>
+    <testcase name="Has Content-Type" time="0.033"/>
+    <testcase name="Content-Type is application/json" time="0.033"/>
+    <testcase name="Is items deleted" time="0.033"/>
+  </testsuite>
+  <testsuite name="event / 01 http://localhost:48080/api/v1/event" id="1371ed77-877f-4f48-a618-2de22097b2e8" tests="5" failures="0" errors="0" time="0.009">
+    <testcase name="Status code is 200" time="0.009"/>
+    <testcase name="Response time is less than 800ms" time="0.009"/>
+    <testcase name="Has Content-Type" time="0.009"/>
+    <testcase name="Content-Type is text/plain" time="0.009"/>
+    <testcase name="Is Body Conatins Id" time="0.009"/>
+  </testsuite>
+  <testsuite name="event / 02 The event that device field is device id , which can be added without checking the matching value descriptor in reading" id="f0bbb3b0-4f69-4050-a468-449a1e70574e" tests="5" failures="0" errors="0" time="0.022">
+    <testcase name="Status code is 200" time="0.022"/>
+    <testcase name="Response time is less than 800ms" time="0.022"/>
+    <testcase name="Has Content-Type" time="0.022"/>
+    <testcase name="Content-Type is text/plain" time="0.022"/>
+    <testcase name="Is Body Conatins Id" time="0.022"/>
+  </testsuite>
+  <testsuite name="event / 96 The event that device field is device name , which can be added without checking the matching value descriptor in reading" id="158be167-de09-493d-b79e-68ad4d656afa" tests="5" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 200" time="0.005"/>
+    <testcase name="Response time is less than 800ms" time="0.005"/>
+    <testcase name="Has Content-Type" time="0.005"/>
+    <testcase name="Content-Type is text/plain" time="0.005"/>
+    <testcase name="Is Body Conatins Id" time="0.005"/>
+  </testsuite>
+</testsuites>

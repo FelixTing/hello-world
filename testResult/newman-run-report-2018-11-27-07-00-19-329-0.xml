@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-metadata" tests="3" time="0.069">
+  <testsuite name="command_error_4xx / 340 http://localhost:48081/api/v1/command/id/:id" id="ab7e990c-f9d8-468a-9e06-87a9f5501eaa" tests="2" failures="0" errors="0" time="0.056">
+    <testcase name="Status code is 409" time="0.056"/>
+    <testcase name="Response time is less than 400ms" time="0.056"/>
+  </testsuite>
+  <testsuite name="command_error_4xx / 349 http://localhost:48081/api/v1/command" id="677bf455-6ffc-4f16-9fe4-286d192cb52f" tests="2" failures="0" errors="0" time="0.009">
+    <testcase name="Status code is 404" time="0.009"/>
+    <testcase name="Response time is less than 400ms" time="0.009"/>
+  </testsuite>
+  <testsuite name="command_error_4xx / 350 http://localhost:48081/api/v1/command" id="2dd0c720-b518-46b7-901f-5f1854074de5" tests="2" failures="0" errors="0" time="0.004">
+    <testcase name="Status code is 409" time="0.004"/>
+    <testcase name="Response time is less than 400ms" time="0.004"/>
+  </testsuite>
+</testsuites>

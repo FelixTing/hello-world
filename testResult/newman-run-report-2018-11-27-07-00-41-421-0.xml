@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-metadata" tests="7" time="0.198">
+  <testsuite name="deviceprofile_error_4xx / 136 http://localhost:48081/api/v1/deviceprofile/name/{profileName}" id="4fad89f5-c63e-41fc-88f4-c8ff4855a422" tests="4" failures="0" errors="0" time="0.074">
+    <testcase name="Status code is 404" time="0.074"/>
+    <testcase name="Response time is less than 200ms" time="0.074"/>
+    <testcase name="Has Content-Type" time="0.074"/>
+    <testcase name="Content-Type is text/plain" time="0.074"/>
+  </testsuite>
+  <testsuite name="deviceprofile_error_4xx / 159 http://localhost:48081/api/v1/deviceprofile" id="63c35a27-1272-4d5f-975a-b1dfa7fc7af2" tests="4" failures="0" errors="0" time="0.007">
+    <testcase name="Status code is 404" time="0.007"/>
+    <testcase name="Response time is less than 200ms" time="0.007"/>
+    <testcase name="Has Content-Type" time="0.007"/>
+    <testcase name="Content-Type is text/plain" time="0.007"/>
+  </testsuite>
+  <testsuite name="deviceprofile_error_4xx / 162 http://localhost:48081/api/v1/deviceprofile" id="baafc917-cd67-4123-a41d-f677b90ba307" tests="4" failures="2" errors="0" time="0.011">
+    <testcase name="Status code is 404" time="0.011" classname="deviceprofile_error_4xx / 162 http://localhost:48081/api/v1/deviceprofile">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: ffcdf9ee-7b9f-4c52-b60b-cfd601a0675f.]]>
+        <![CDATA[Collection name: core-metadata.]]>
+        <![CDATA[Request name: deviceprofile_error_4xx / 162 http://localhost:48081/api/v1/deviceprofile.]]>
+        <![CDATA[Test description: Status code is 404.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:1:3).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 200ms" time="0.011"/>
+    <testcase name="Has Content-Type" time="0.011"/>
+    <testcase name="Content-Type is text/plain" time="0.011" classname="deviceprofile_error_4xx / 162 http://localhost:48081/api/v1/deviceprofile">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: ffcdf9ee-7b9f-4c52-b60b-cfd601a0675f.]]>
+        <![CDATA[Collection name: core-metadata.]]>
+        <![CDATA[Request name: deviceprofile_error_4xx / 162 http://localhost:48081/api/v1/deviceprofile.]]>
+        <![CDATA[Test description: Content-Type is text/plain.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:4:3).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="deviceprofile_error_4xx / 1001 http://localhost:48081/api/v1/deviceprofile/id/{DeviceProfileId}" id="8288aaa5-2074-4fb5-bf27-da1f0baec2a0" tests="4" failures="0" errors="0" time="0.003">
+    <testcase name="Status code is 404" time="0.003"/>
+    <testcase name="Response time is less than 200ms" time="0.003"/>
+    <testcase name="Has Content-Type" time="0.003"/>
+    <testcase name="Content-Type is text/plain" time="0.003"/>
+  </testsuite>
+  <testsuite name="deviceprofile_error_4xx / 142_409 http://localhost:48081/api/v1/deviceprofile/uploadfile" id="dfbd2417-17ad-428c-a0e9-21bbc4ed7530" tests="4" failures="0" errors="0" time="0.052">
+    <testcase name="Status code is 409" time="0.052"/>
+    <testcase name="Response time is less than 200ms" time="0.052"/>
+    <testcase name="Has Content-Type" time="0.052"/>
+    <testcase name="Content-Type is text/plain" time="0.052"/>
+  </testsuite>
+  <testsuite name="deviceprofile_error_4xx / 143_400 http://localhost:48081/api/v1/deviceprofile/uploadfile" id="5ee567aa-dfca-4843-9eb1-3b5403529dc7" tests="4" failures="1" errors="0" time="0.047">
+    <testcase name="Status code is 400" time="0.047" classname="deviceprofile_error_4xx / 143_400 http://localhost:48081/api/v1/deviceprofile/uploadfile">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: ffcdf9ee-7b9f-4c52-b60b-cfd601a0675f.]]>
+        <![CDATA[Collection name: core-metadata.]]>
+        <![CDATA[Request name: deviceprofile_error_4xx / 143_400 http://localhost:48081/api/v1/deviceprofile/uploadfile.]]>
+        <![CDATA[Test description: Status code is 400.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:1:6).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 200ms" time="0.047"/>
+    <testcase name="Has Content-Type" time="0.047"/>
+    <testcase name="Content-Type is text/plain" time="0.047"/>
+  </testsuite>
+  <testsuite name="deviceprofile_error_4xx / 148_409 http://localhost:48081/api/v1/deviceprofile/upload" id="aea14404-64fd-49ff-b566-d22b598d1304" tests="4" failures="0" errors="0" time="0.004">
+    <testcase name="Status code is 409" time="0.004"/>
+    <testcase name="Response time is less than 200ms" time="0.004"/>
+    <testcase name="Has Content-Type" time="0.004"/>
+    <testcase name="Content-Type is text/plain" time="0.004"/>
+  </testsuite>
+</testsuites>

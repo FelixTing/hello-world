@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-metadata" tests="2" time="0.057">
+  <testsuite name="schedule_error_4xx / 276 http://localhost:48081/api/v1/schedule" id="bf8f534a-7f27-42a2-aace-421c4b2c9927" tests="2" failures="0" errors="0" time="0.053">
+    <testcase name="Status code is 404" time="0.053"/>
+    <testcase name="Response time is less than 400ms" time="0.053"/>
+  </testsuite>
+  <testsuite name="schedule_error_4xx / 273 http://localhost:48081/api/v1/schedule" id="ab125424-3260-4927-9694-cafa378de76d" tests="2" failures="0" errors="0" time="0.004">
+    <testcase name="Status code is 409" time="0.004"/>
+    <testcase name="Response time is less than 400ms" time="0.004"/>
+  </testsuite>
+</testsuites>

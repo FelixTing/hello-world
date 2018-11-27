@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-metadata" tests="3" time="0.102">
+  <testsuite name="addressable_error_4xx / 314 http://localhost:48081/api/v1/addressable/id/:id" id="59854874-4d98-4a85-b720-1230c21aedd6" tests="2" failures="0" errors="0" time="0.090">
+    <testcase name="Status code is 404" time="0.090"/>
+    <testcase name="Response time is less than 400ms" time="0.090"/>
+  </testsuite>
+  <testsuite name="addressable_error_4xx / 319 http://localhost:48081/api/v1/addressable/name/:name" id="90931ff3-f5b4-4164-86ca-ac390ef4828c" tests="2" failures="0" errors="0" time="0.007">
+    <testcase name="Status code is 404" time="0.007"/>
+    <testcase name="Response time is less than 400ms" time="0.007"/>
+  </testsuite>
+  <testsuite name="addressable_error_4xx / 334 http://localhost:48081/api/v1/addressable" id="3c14a838-98cb-4fd8-a69a-94bb4d2d581e" tests="2" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 404" time="0.005"/>
+    <testcase name="Response time is less than 400ms" time="0.005"/>
+  </testsuite>
+</testsuites>

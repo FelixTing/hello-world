@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-metadata" tests="21" time="0.330">
+  <testsuite name="device / 02 http://localhost:48081/api/v1/device/id/:id" id="d3ad0369-a351-41ec-a06b-c90990481be8" tests="4" failures="0" errors="0" time="0.124">
+    <testcase name="Status code is 200" time="0.124"/>
+    <testcase name="Response time is less than 800 ms" time="0.124"/>
+    <testcase name="Has Content-Type" time="0.124"/>
+    <testcase name="Body has True" time="0.124"/>
+  </testsuite>
+  <testsuite name="device / 05 http://localhost:48081/api/v1/device/name/:name/opstate/{opState}" id="81ed7400-af3f-4bad-a295-85959ebe0517" tests="4" failures="0" errors="0" time="0.012">
+    <testcase name="Status code is 200" time="0.012"/>
+    <testcase name="Response time is less than 800ms" time="0.012"/>
+    <testcase name="Has Content-Type" time="0.012"/>
+    <testcase name="Device updated" time="0.012"/>
+  </testsuite>
+  <testsuite name="device / 08 http://localhost:48081/api/v1/device/name/:name/adminstate/{adminState}" id="7684a6de-6ce9-455c-b977-6f6acd18929c" tests="4" failures="0" errors="0" time="0.012">
+    <testcase name="Status code is 200" time="0.012"/>
+    <testcase name="Response time is less than 800ms" time="0.012"/>
+    <testcase name="Has Content-Type" time="0.012"/>
+    <testcase name="Device updated" time="0.012"/>
+  </testsuite>
+  <testsuite name="device / 11 http://localhost:48081/api/v1/device/name/:name/lastreported/{time}" id="94a5c4f1-5322-4329-8e32-286fb3dcd7e1" tests="4" failures="0" errors="0" time="0.007">
+    <testcase name="Status code is 200" time="0.007"/>
+    <testcase name="Response time is less than 800ms" time="0.007"/>
+    <testcase name="Has Content-Type" time="0.007"/>
+    <testcase name="Last Reported Time updated" time="0.007"/>
+  </testsuite>
+  <testsuite name="device / 14 http://localhost:48081/api/v1/device/name/:name/lastconnected/{time}" id="05fd3c9b-227e-4388-bfa1-537295085d05" tests="4" failures="0" errors="0" time="0.006">
+    <testcase name="Status code is 200" time="0.006"/>
+    <testcase name="Response time is less than 800ms" time="0.006"/>
+    <testcase name="Has Content-Type" time="0.006"/>
+    <testcase name="Last Connected Time updated" time="0.006"/>
+  </testsuite>
+  <testsuite name="device / 20 http://localhost:48081/api/v1/device/name/:name" id="c3d00387-2899-46dd-b54c-3c2df0de9b87" tests="5" failures="0" errors="0" time="0.009">
+    <testcase name="Status code is 200" time="0.009"/>
+    <testcase name="Response time is less than 800ms" time="0.009"/>
+    <testcase name="Has Content-Type" time="0.009"/>
+    <testcase name="Content-Type is application/json" time="0.009"/>
+    <testcase name="Is Valid Response Schema" time="0.009"/>
+  </testsuite>
+  <testsuite name="device / 17 http://localhost:48081/api/v1/device/name/:name" id="698b07d8-65a8-47c9-83be-85d88984a3e9" tests="5" failures="0" errors="0" time="0.026">
+    <testcase name="Status code is 200" time="0.026"/>
+    <testcase name="Response time is less than 800ms" time="0.026"/>
+    <testcase name="Has Content-Type" time="0.026"/>
+    <testcase name="Content-Type is application/json" time="0.026"/>
+    <testcase name="Record Deleted" time="0.026"/>
+  </testsuite>
+  <testsuite name="device / 22 http://localhost:48081/api/v1/device/:id/opstate/{opState}" id="e74c9ebd-1d4b-4d8f-9b8e-2d7af2c0d6c5" tests="4" failures="0" errors="0" time="0.013">
+    <testcase name="Status code is 200" time="0.013"/>
+    <testcase name="Response time is less than 800ms" time="0.013"/>
+    <testcase name="Has Content-Type" time="0.013"/>
+    <testcase name="Device updated" time="0.013"/>
+  </testsuite>
+  <testsuite name="device / 25 http://localhost:48081/api/v1/device/:id/adminstate/{adminState}" id="8ccf928d-3c8e-4d5d-ad15-ea2b1c6221e0" tests="4" failures="0" errors="0" time="0.007">
+    <testcase name="Status code is 200" time="0.007"/>
+    <testcase name="Response time is less than 800ms" time="0.007"/>
+    <testcase name="Has Content-Type" time="0.007"/>
+    <testcase name="Device updated" time="0.007"/>
+  </testsuite>
+  <testsuite name="device / 28 http://localhost:48081/api/v1/device/:id/lastreported/{time}" id="4d34369d-ae82-4fbe-847f-650266d47c01" tests="4" failures="0" errors="0" time="0.008">
+    <testcase name="Status code is 200" time="0.008"/>
+    <testcase name="Response time is less than 800ms" time="0.008"/>
+    <testcase name="Has Content-Type" time="0.008"/>
+    <testcase name="Device updated" time="0.008"/>
+  </testsuite>
+  <testsuite name="device / 31 http://localhost:48081/api/v1/device/:id/lastconnected/{time}" id="53c3e5d0-9b88-4f32-af9e-5f4caa323151" tests="4" failures="0" errors="0" time="0.007">
+    <testcase name="Status code is 200" time="0.007"/>
+    <testcase name="Response time is less than 800ms" time="0.007"/>
+    <testcase name="Has Content-Type" time="0.007"/>
+    <testcase name="Device updated" time="0.007"/>
+  </testsuite>
+  <testsuite name="device / 34 http://localhost:48081/api/v1/device/:id" id="f312fb18-5be9-4d7c-8bb4-fb207b15fcb2" tests="5" failures="0" errors="0" time="0.006">
+    <testcase name="Status code is 200" time="0.006"/>
+    <testcase name="Response time is less than 800ms" time="0.006"/>
+    <testcase name="Has Content-Type" time="0.006"/>
+    <testcase name="Content-Type is application/json" time="0.006"/>
+    <testcase name="Is Valid Response Schema" time="0.006"/>
+  </testsuite>
+  <testsuite name="device / 36 http://localhost:48081/api/v1/device/label/:label" id="75598ca8-a572-4e08-a621-3a773b78a1b9" tests="5" failures="0" errors="0" time="0.010">
+    <testcase name="Status code is 200" time="0.010"/>
+    <testcase name="Response time is less than 800ms" time="0.010"/>
+    <testcase name="Has Content-Type" time="0.010"/>
+    <testcase name="Content-Type is application/json" time="0.010"/>
+    <testcase name="Is Valid Response Schema" time="0.010"/>
+  </testsuite>
+  <testsuite name="device / 38 http://localhost:48081/api/v1/device/profile/:profileId" id="7b5faeee-4189-4661-a301-691894c4eb50" tests="5" failures="0" errors="0" time="0.018">
+    <testcase name="Status code is 200" time="0.018"/>
+    <testcase name="Response time is less than 800ms" time="0.018"/>
+    <testcase name="Has Content-Type" time="0.018"/>
+    <testcase name="Content-Type is application/json" time="0.018"/>
+    <testcase name="Is Valid Response Schema" time="0.018"/>
+  </testsuite>
+  <testsuite name="device / 41 http://localhost:48081/api/v1/device/service/:serviceId" id="281a1f94-0339-4bac-917b-28edab588edb" tests="5" failures="0" errors="0" time="0.009">
+    <testcase name="Status code is 200" time="0.009"/>
+    <testcase name="Response time is less than 800ms" time="0.009"/>
+    <testcase name="Has Content-Type" time="0.009"/>
+    <testcase name="Content-Type is application/json" time="0.009"/>
+    <testcase name="Is Valid Response Schema" time="0.009"/>
+  </testsuite>
+  <testsuite name="device / 44 http://localhost:48081/api/v1/device/servicename/:servicename" id="70731a72-051a-4162-8a84-b5ec83852c78" tests="5" failures="0" errors="0" time="0.006">
+    <testcase name="Status code is 200" time="0.006"/>
+    <testcase name="Response time is less than 800ms" time="0.006"/>
+    <testcase name="Has Content-Type" time="0.006"/>
+    <testcase name="Content-Type is application/json" time="0.006"/>
+    <testcase name="Is Valid Response Schema" time="0.006"/>
+  </testsuite>
+  <testsuite name="device / 50 http://localhost:48081/api/v1/device/profilename/:profilename" id="fcd7f3f0-2f34-403b-a1d3-9fe07d38876d" tests="5" failures="0" errors="0" time="0.010">
+    <testcase name="Status code is 200" time="0.010"/>
+    <testcase name="Response time is less than 800ms" time="0.010"/>
+    <testcase name="Has Content-Type" time="0.010"/>
+    <testcase name="Content-Type is application/json" time="0.010"/>
+    <testcase name="Is Valid Response Schema" time="0.010"/>
+  </testsuite>
+  <testsuite name="device / 53 http://localhost:48081/api/v1/device/addressable/:addressableId" id="05de156f-c210-4d49-b87f-a025b6164dde" tests="5" failures="0" errors="0" time="0.004">
+    <testcase name="Status code is 200" time="0.004"/>
+    <testcase name="Response time is less than 800ms" time="0.004"/>
+    <testcase name="Has Content-Type" time="0.004"/>
+    <testcase name="Content-Type is application/json" time="0.004"/>
+    <testcase name="Is Valid Response Schema" time="0.004"/>
+  </testsuite>
+  <testsuite name="device / 62 http://localhost:48081/api/v1/device" id="89ac0c78-c85f-4097-9ee7-971fee574026" tests="5" failures="0" errors="0" time="0.016">
+    <testcase name="Status code is 200" time="0.016"/>
+    <testcase name="Response time is less than 800ms" time="0.016"/>
+    <testcase name="Has Content-Type" time="0.016"/>
+    <testcase name="Content-Type is application/json" time="0.016"/>
+    <testcase name="Is Valid Response Schema" time="0.016"/>
+  </testsuite>
+  <testsuite name="device / 59 http://localhost:48081/api/v1/device" id="280e146c-145f-4ceb-8e24-d4fe125df0ea" tests="4" failures="0" errors="0" time="0.010">
+    <testcase name="Status code is 200" time="0.010"/>
+    <testcase name="Response time is less than 800ms" time="0.010"/>
+    <testcase name="Has Content-Type" time="0.010"/>
+    <testcase name="Body has True" time="0.010"/>
+  </testsuite>
+  <testsuite name="device / 56 http://localhost:48081/api/v1/device" id="635302f0-f473-45d9-95ad-72a3c52d3298" tests="5" failures="0" errors="0" time="0.010">
+    <testcase name="Status code is 200" time="0.010"/>
+    <testcase name="Response time is less than 800ms" time="0.010"/>
+    <testcase name="Has Content-Type" time="0.010"/>
+    <testcase name="Content-Type is text/plain" time="0.010"/>
+    <testcase name="Is Body Conatins Id" time="0.010"/>
+  </testsuite>
+</testsuites>

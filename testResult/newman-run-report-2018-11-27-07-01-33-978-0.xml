@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-metadata" tests="8" time="0.074">
+  <testsuite name="scheduleevent_error_4xx / 242 http://localhost:48081/api/v1/scheduleevent/id/:id" id="fadd69bc-acb0-4e66-810a-1d6256cdf751" tests="2" failures="0" errors="0" time="0.021">
+    <testcase name="Status code is 404" time="0.021"/>
+    <testcase name="Response time is less than 400ms" time="0.021"/>
+  </testsuite>
+  <testsuite name="scheduleevent_error_4xx / 243 http://localhost:48081/api/v1/scheduleevent/id/:id" id="43d4b356-1ca8-4d0f-b76c-d5670a5400e5" tests="2" failures="0" errors="0" time="0.003">
+    <testcase name="Status code is 404" time="0.003"/>
+    <testcase name="Response time is less than 400ms" time="0.003"/>
+  </testsuite>
+  <testsuite name="scheduleevent_error_4xx / 246 http://localhost:48081/api/v1/scheduleevent/name/:name" id="a1ea58cf-c213-4253-896c-b2993c94f376" tests="2" failures="0" errors="0" time="0.004">
+    <testcase name="Status code is 404" time="0.004"/>
+    <testcase name="Response time is less than 400ms" time="0.004"/>
+  </testsuite>
+  <testsuite name="scheduleevent_error_4xx / 247 http://localhost:48081/api/v1/scheduleevent/name/:name" id="8ec4d083-b206-49e1-9a6c-f9e89bb04f80" tests="4" failures="0" errors="0" time="0.004">
+    <testcase name="Failed to Dlete ScheduleEvent" time="0.004"/>
+    <testcase name="Response time is less than 400ms" time="0.004"/>
+    <testcase name="Has Content-Type" time="0.004"/>
+    <testcase name="Content-Type is text/plain" time="0.004"/>
+  </testsuite>
+  <testsuite name="scheduleevent_error_4xx / 258 http://localhost:48081/api/v1/scheduleevent" id="9fd3cddb-5914-4dd8-82fa-db89fdd2ea32" tests="2" failures="0" errors="0" time="0.013">
+    <testcase name="Status code is 409" time="0.013"/>
+    <testcase name="Response time is less than 400ms" time="0.013"/>
+  </testsuite>
+  <testsuite name="scheduleevent_error_4xx / 254 http://localhost:48081/api/v1/scheduleevent" id="68d98fb8-0958-4ea3-abec-7af585635155" tests="4" failures="0" errors="0" time="0.004">
+    <testcase name="Status code is 404" time="0.004"/>
+    <testcase name="Response time is less than 400ms" time="0.004"/>
+    <testcase name="Has Content-Type" time="0.004"/>
+    <testcase name="Content-Type is text/plain" time="0.004"/>
+  </testsuite>
+  <testsuite name="scheduleevent_error_4xx / 255 http://localhost:48081/api/v1/scheduleevent" id="73c0ec27-0073-46f6-90c5-cd1ee9ab2aa1" tests="2" failures="0" errors="0" time="0.001">
+    <testcase name="Status code is 409" time="0.001"/>
+    <testcase name="Response time is less than 400ms" time="0.001"/>
+  </testsuite>
+  <testsuite name="scheduleevent_error_4xx / 259 http://localhost:48081/api/v1/scheduleevent" id="03af342b-bd99-4ee8-9ddb-df488bdb76b2" tests="2" failures="0" errors="0" time="0.024">
+    <testcase name="Status code is 404" time="0.024"/>
+    <testcase name="Response time is less than 400ms" time="0.024"/>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-metadata" tests="11" time="0.217">
+  <testsuite name="addressable / 313 http://localhost:48081/api/v1/addressable/id/:id" id="d1c0156b-07a3-4e06-8034-c2d5923b3fbc" tests="5" failures="0" errors="0" time="0.132">
+    <testcase name="Status code is 200" time="0.132"/>
+    <testcase name="Response time is less than 400ms" time="0.132"/>
+    <testcase name="Has Content-Type" time="0.132"/>
+    <testcase name="Content-Type is application/json" time="0.132"/>
+    <testcase name="Body has True" time="0.132"/>
+  </testsuite>
+  <testsuite name="addressable / 316 http://localhost:48081/api/v1/addressable/:id" id="ebc18c8b-359d-4ea8-bba5-4b462e5a4ce2" tests="5" failures="0" errors="0" time="0.012">
+    <testcase name="Status code is 200" time="0.012"/>
+    <testcase name="Response time is less than 400ms" time="0.012"/>
+    <testcase name="Has Content-Type" time="0.012"/>
+    <testcase name="Content-Type is application/json" time="0.012"/>
+    <testcase name="Is Valid Response Schema" time="0.012"/>
+  </testsuite>
+  <testsuite name="addressable / 321 http://localhost:48081/api/v1/addressable/name/:name" id="6dcfae4f-f27a-4df3-add2-72302ad72189" tests="5" failures="0" errors="0" time="0.039">
+    <testcase name="Status code is 200" time="0.039"/>
+    <testcase name="Response time is less than 400ms" time="0.039"/>
+    <testcase name="Has Content-Type" time="0.039"/>
+    <testcase name="Content-Type is application/json" time="0.039"/>
+    <testcase name="Is Valid Response Schema" time="0.039"/>
+  </testsuite>
+  <testsuite name="addressable / 318 http://localhost:48081/api/v1/addressable/name/:name" id="1b7782a3-c728-4673-b54c-83cb0107f2f5" tests="5" failures="0" errors="0" time="0.003">
+    <testcase name="Status code is 200" time="0.003"/>
+    <testcase name="Response time is less than 400ms" time="0.003"/>
+    <testcase name="Has Content-Type" time="0.003"/>
+    <testcase name="Content-Type is application/json" time="0.003"/>
+    <testcase name="Body has True" time="0.003"/>
+  </testsuite>
+  <testsuite name="addressable / 323 http://localhost:48081/api/v1/addressable/topic/:topic" id="4f2231c1-e252-4e38-8971-8b6896f04950" tests="4" failures="0" errors="0" time="0.002">
+    <testcase name="Status code is 200" time="0.002"/>
+    <testcase name="Response time is less than 400ms" time="0.002"/>
+    <testcase name="Has Content-Type" time="0.002"/>
+    <testcase name="Content-Type is application/json" time="0.002"/>
+  </testsuite>
+  <testsuite name="addressable / 325 http://localhost:48081/api/v1/addressable/port/:port" id="7865e27e-877a-4aba-a964-8eef8f2605b8" tests="4" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 200" time="0.005"/>
+    <testcase name="Response time is less than 400ms" time="0.005"/>
+    <testcase name="Has Content-Type" time="0.005"/>
+    <testcase name="Content-Type is application/json" time="0.005"/>
+  </testsuite>
+  <testsuite name="addressable / 327 http://localhost:48081/api/v1/addressable/publisher/:publisher" id="3ca06464-7d0b-44b0-9f4c-6187a7b40577" tests="4" failures="0" errors="0" time="0.004">
+    <testcase name="Status code is 200" time="0.004"/>
+    <testcase name="Response time is less than 400ms" time="0.004"/>
+    <testcase name="Has Content-Type" time="0.004"/>
+    <testcase name="Content-Type is application/json" time="0.004"/>
+  </testsuite>
+  <testsuite name="addressable / 329 http://localhost:48081/api/v1/addressable/address/:address" id="4b0b4a6a-f4b2-4a59-93ad-b23ca7d8cd85" tests="4" failures="0" errors="0" time="0.002">
+    <testcase name="Status code is 200" time="0.002"/>
+    <testcase name="Response time is less than 400ms" time="0.002"/>
+    <testcase name="Has Content-Type" time="0.002"/>
+    <testcase name="Content-Type is application/json" time="0.002"/>
+  </testsuite>
+  <testsuite name="addressable / 336 http://localhost:48081/api/v1/addressable" id="23bdae08-2a83-4104-9acc-7fc418140ded" tests="4" failures="0" errors="0" time="0.002">
+    <testcase name="Status code is 200" time="0.002"/>
+    <testcase name="Response time is less than 400ms" time="0.002"/>
+    <testcase name="Has Content-Type" time="0.002"/>
+    <testcase name="Content-Type is application/json" time="0.002"/>
+  </testsuite>
+  <testsuite name="addressable / 333 http://localhost:48081/api/v1/addressable" id="88dd8c4a-ac2b-49b2-b0aa-415f3217f34e" tests="5" failures="0" errors="0" time="0.008">
+    <testcase name="Status code is 200" time="0.008"/>
+    <testcase name="Response time is less than 400ms" time="0.008"/>
+    <testcase name="Has Content-Type" time="0.008"/>
+    <testcase name="Content-Type is application/json" time="0.008"/>
+    <testcase name="Body has True" time="0.008"/>
+  </testsuite>
+  <testsuite name="addressable / 331 http://localhost:48081/api/v1/addressable" id="d763c416-1d21-4758-8d4e-82ffd1741d9b" tests="5" failures="0" errors="0" time="0.008">
+    <testcase name="Status code is 200" time="0.008"/>
+    <testcase name="Response time is less than 400ms" time="0.008"/>
+    <testcase name="Has Content-Type" time="0.008"/>
+    <testcase name="Content-Type is text/plain" time="0.008"/>
+    <testcase name="Is Body Conatins Id" time="0.008"/>
+  </testsuite>
+</testsuites>

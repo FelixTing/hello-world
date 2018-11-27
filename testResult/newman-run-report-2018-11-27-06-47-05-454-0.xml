@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-metadata" tests="17" time="0.149">
+  <testsuite name="deviceservice_error_4xx / 197 http://localhost:48081/api/v1/deviceservice/name/:name/opstate/{opState}" id="2bbde9c7-935c-4d85-8dd7-7d374f8befa6" tests="4" failures="0" errors="0" time="0.038">
+    <testcase name="Status code is 404" time="0.038"/>
+    <testcase name="Response time is less than 800ms" time="0.038"/>
+    <testcase name="Has Content-Type" time="0.038"/>
+    <testcase name="Content-Type is text/plain" time="0.038"/>
+  </testsuite>
+  <testsuite name="deviceservice_error_4xx / 200 http://localhost:48081/api/v1/deviceservice/name/:name/adminstate/{adminState}" id="7aafbad3-3948-4787-8db2-87f65a1c3496" tests="4" failures="0" errors="0" time="0.012">
+    <testcase name="Status code is 404" time="0.012"/>
+    <testcase name="Response time is less than 800ms" time="0.012"/>
+    <testcase name="Has Content-Type" time="0.012"/>
+    <testcase name="Content-Type is text/plain" time="0.012"/>
+  </testsuite>
+  <testsuite name="deviceservice_error_4xx / 203 http://localhost:48081/api/v1/deviceservice/name/:name/lastreported/{time}" id="e090fbee-05b2-4124-9070-bf4e073b340e" tests="4" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 404" time="0.005"/>
+    <testcase name="Response time is less than 800ms" time="0.005"/>
+    <testcase name="Has Content-Type" time="0.005"/>
+    <testcase name="Content-Type is text/plain" time="0.005"/>
+  </testsuite>
+  <testsuite name="deviceservice_error_4xx / 206 http://localhost:48081/api/v1/deviceservice/name/:name/lastconnected/{time}" id="85d9000e-5798-4f05-9907-c3657c1a11ca" tests="4" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 404" time="0.005"/>
+    <testcase name="Response time is less than 800ms" time="0.005"/>
+    <testcase name="Has Content-Type" time="0.005"/>
+    <testcase name="Content-Type is text/plain" time="0.005"/>
+  </testsuite>
+  <testsuite name="deviceservice_error_4xx / 209 http://localhost:48081/api/v1/deviceservice/name/:name" id="a67f52e0-0b3c-4be2-a639-18da721d9a8f" tests="4" failures="0" errors="0" time="0.004">
+    <testcase name="Status code is 404" time="0.004"/>
+    <testcase name="Response time is less than 800ms" time="0.004"/>
+    <testcase name="Has Content-Type" time="0.004"/>
+    <testcase name="Content-Type is text/plain" time="0.004"/>
+  </testsuite>
+  <testsuite name="deviceservice_error_4xx / 214 http://localhost:48081/api/v1/deviceservice/:id/opstate/{opState}" id="fb0229ea-3273-4860-925a-4a5827cd990c" tests="4" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 404" time="0.005"/>
+    <testcase name="Response time is less than 800ms" time="0.005"/>
+    <testcase name="Has Content-Type" time="0.005"/>
+    <testcase name="Content-Type is text/plain" time="0.005"/>
+  </testsuite>
+  <testsuite name="deviceservice_error_4xx / 217 http://localhost:48081/api/v1/deviceservice/:id/adminstate/{adminState}" id="802bf5e6-1fd0-4319-9fe3-f56b464f5f8e" tests="4" failures="0" errors="0" time="0.006">
+    <testcase name="Status code is 404" time="0.006"/>
+    <testcase name="Response time is less than 800ms" time="0.006"/>
+    <testcase name="Has Content-Type" time="0.006"/>
+    <testcase name="Content-Type is text/plain" time="0.006"/>
+  </testsuite>
+  <testsuite name="deviceservice_error_4xx / 220 http://localhost:48081/api/v1/deviceservice/:id/lastreported/{time}" id="240077c4-5204-47c2-940b-c70a913e2823" tests="4" failures="0" errors="0" time="0.003">
+    <testcase name="Status code is 404" time="0.003"/>
+    <testcase name="Response time is less than 800ms" time="0.003"/>
+    <testcase name="Has Content-Type" time="0.003"/>
+    <testcase name="Content-Type is text/plain" time="0.003"/>
+  </testsuite>
+  <testsuite name="deviceservice_error_4xx / 223 http://localhost:48081/api/v1/deviceservice/:id/lastconnected/{time}" id="098eea80-88d0-4649-b95c-0ba12694c185" tests="4" failures="0" errors="0" time="0.008">
+    <testcase name="Status code is 404" time="0.008"/>
+    <testcase name="Response time is less than 800ms" time="0.008"/>
+    <testcase name="Has Content-Type" time="0.008"/>
+    <testcase name="Content-Type is text/plain" time="0.008"/>
+  </testsuite>
+  <testsuite name="deviceservice_error_4xx / 191 http://localhost:48081/api/v1/deviceservice/id/:id" id="7b9e55ff-f571-4a5a-ac7c-cb2281e4e40b" tests="4" failures="0" errors="0" time="0.026">
+    <testcase name="Record Deleted" time="0.026"/>
+    <testcase name="Response time is less than 800ms" time="0.026"/>
+    <testcase name="Has Content-Type" time="0.026"/>
+    <testcase name="Content-Type is text/plain" time="0.026"/>
+  </testsuite>
+  <testsuite name="deviceservice_error_4xx / 194 http://localhost:48081/api/v1/deviceservice/addressablename/:addressablename" id="22048e7b-bf6f-4535-8f5c-941aafa87341" tests="4" failures="0" errors="0" time="0.003">
+    <testcase name="Status code is 404" time="0.003"/>
+    <testcase name="Response time is less than 800ms" time="0.003"/>
+    <testcase name="Has Content-Type" time="0.003"/>
+    <testcase name="Content-Type is text/plain" time="0.003"/>
+  </testsuite>
+  <testsuite name="deviceservice_error_4xx / 228 http://localhost:48081/api/v1/deviceservice/addressable/:addressableId" id="54866be8-0d2f-422b-b862-56f3059279b4" tests="4" failures="0" errors="0" time="0.002">
+    <testcase name="Status code is 404" time="0.002"/>
+    <testcase name="Response time is less than 800ms" time="0.002"/>
+    <testcase name="Has Content-Type" time="0.002"/>
+    <testcase name="Content-Type is text/plain" time="0.002"/>
+  </testsuite>
+  <testsuite name="deviceservice_error_4xx / 236 http://localhost:48081/api/v1/deviceservice" id="2dad6b5c-708c-419f-86c2-50721f79bbce" tests="4" failures="0" errors="0" time="0.010">
+    <testcase name="Status code is 404" time="0.010"/>
+    <testcase name="Response time is less than 800ms" time="0.010"/>
+    <testcase name="Has Content-Type" time="0.010"/>
+    <testcase name="Content-Type is text/plain" time="0.010"/>
+  </testsuite>
+  <testsuite name="deviceservice_error_4xx / 233 http://localhost:48081/api/v1/deviceservice" id="81560a4b-9226-4d3b-8dbb-4ec5d17ed365" tests="4" failures="0" errors="0" time="0.005">
+    <testcase name="DeviceService Created" time="0.005"/>
+    <testcase name="Response time is less than 800ms" time="0.005"/>
+    <testcase name="Has Content-Type" time="0.005"/>
+    <testcase name="Content-Type is text/plain" time="0.005"/>
+  </testsuite>
+  <testsuite name="deviceservice_error_4xx / 359 http://localhost:48081/api/v1/deviceservice/name/:name" id="2be2927f-37d5-4467-ba92-612b374d4d5c" tests="2" failures="0" errors="0" time="0.006">
+    <testcase name="Status code is 404" time="0.006"/>
+    <testcase name="Response time is less than 800ms" time="0.006"/>
+  </testsuite>
+  <testsuite name="deviceservice_error_4xx / 360 http://localhost:48081/api/v1/deviceservice/:id" id="8410880c-6934-44a0-97a5-07816b5120d3" tests="2" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 404" time="0.005"/>
+    <testcase name="Response time is less than 800ms" time="0.005"/>
+  </testsuite>
+  <testsuite name="deviceservice_error_4xx / 354 http://localhost:48081/api/v1/deviceservice " id="4ca874a8-79f0-483d-a332-536507628628" tests="4" failures="0" errors="0" time="0.006">
+    <testcase name="Status code is 404" time="0.006"/>
+    <testcase name="Response time is less than 800ms" time="0.006"/>
+    <testcase name="Has Content-Type" time="0.006"/>
+    <testcase name="Content-Type is text/plain" time="0.006"/>
+  </testsuite>
+</testsuites>

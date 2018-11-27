@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-data" tests="2" time="0.059">
+  <testsuite name="reading_error_4xx / 38 http://localhost:48080/api/v1/reading" id="16aeb100-6d65-46e2-85f5-b163c1d8075b" tests="2" failures="1" errors="0" time="0.053">
+    <testcase name="Status code is 404" time="0.053" classname="reading_error_4xx / 38 http://localhost:48080/api/v1/reading">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 8cb53c83-65f6-458a-9a99-c72a04fa2c54.]]>
+        <![CDATA[Collection name: core-data.]]>
+        <![CDATA[Request name: reading_error_4xx / 38 http://localhost:48080/api/v1/reading.]]>
+        <![CDATA[Test description: Status code is 404.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:1:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 200ms" time="0.053"/>
+  </testsuite>
+  <testsuite name="reading_error_4xx / 47 http://localhost:48080/api/v1/reading/id/:id" id="e70c3ef7-f2da-4324-b4e9-90e000342591" tests="2" failures="1" errors="0" time="0.006">
+    <testcase name="Status code is 404" time="0.006" classname="reading_error_4xx / 47 http://localhost:48080/api/v1/reading/id/:id">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 8cb53c83-65f6-458a-9a99-c72a04fa2c54.]]>
+        <![CDATA[Collection name: core-data.]]>
+        <![CDATA[Request name: reading_error_4xx / 47 http://localhost:48080/api/v1/reading/id/:id.]]>
+        <![CDATA[Test description: Status code is 404.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:1:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 200ms" time="0.006"/>
+  </testsuite>
+</testsuites>

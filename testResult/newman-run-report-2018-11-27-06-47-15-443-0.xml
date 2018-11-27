@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-metadata" tests="8" time="0.086">
+  <testsuite name="provisionwatcher_error_4xx / 281 http://localhost:48081/api/v1/provisionwatcher/id/:id" id="98886c83-1958-4b56-83e6-16c99a5e1423" tests="2" failures="0" errors="0" time="0.023">
+    <testcase name="Status code is 404" time="0.023"/>
+    <testcase name="Response time is less than 400ms" time="0.023"/>
+  </testsuite>
+  <testsuite name="provisionwatcher_error_4xx / 286 http://localhost:48081/api/v1/provisionwatcher/name/:name" id="ca6e59dd-0303-47a1-a9f6-ec6a397ce014" tests="2" failures="0" errors="0" time="0.038">
+    <testcase name="Status code is 404" time="0.038"/>
+    <testcase name="Response time is less than 400ms" time="0.038"/>
+  </testsuite>
+  <testsuite name="provisionwatcher_error_4xx / 292 http://localhost:48081/api/v1/provisionwatcher/profile/:profileId" id="a23506b8-55fe-433e-ab0a-8fb4b99d5af9" tests="2" failures="0" errors="0" time="0.004">
+    <testcase name="Status code is 404" time="0.004"/>
+    <testcase name="Response time is less than 400ms" time="0.004"/>
+  </testsuite>
+  <testsuite name="provisionwatcher_error_4xx / 295 http://localhost:48081/api/v1/provisionwatcher/profilename/:profilename" id="ebefc328-2780-4675-99ac-df64a5d7250f" tests="2" failures="0" errors="0" time="0.004">
+    <testcase name="Status code is 404" time="0.004"/>
+    <testcase name="Response time is less than 400" time="0.004"/>
+  </testsuite>
+  <testsuite name="provisionwatcher_error_4xx / 298 http://localhost:48081/api/v1/provisionwatcher/service/:serviceId" id="ac66f4e8-c27a-4fc5-be0b-725e0de9ce25" tests="2" failures="0" errors="0" time="0.004">
+    <testcase name="Status code is 404" time="0.004"/>
+    <testcase name="Response time is less than 400ms" time="0.004"/>
+  </testsuite>
+  <testsuite name="provisionwatcher_error_4xx / 301 http://localhost:48081/api/v1/provisionwatcher/servicename/:servicename" id="b644ca9a-fd3f-4b29-a2cd-8214f0919d72" tests="2" failures="0" errors="0" time="0.003">
+    <testcase name="Status code is 404" time="0.003"/>
+    <testcase name="Response time is less than 400ms" time="0.003"/>
+  </testsuite>
+  <testsuite name="provisionwatcher_error_4xx / 308 http://localhost:48081/api/v1/provisionwatcher" id="3f288a7a-88f9-41a3-bb89-3212a73c55d6" tests="2" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 404" time="0.005"/>
+    <testcase name="Response time is less than 400ms" time="0.005"/>
+  </testsuite>
+  <testsuite name="provisionwatcher_error_4xx / 306 http://localhost:48081/api/v1/provisionwatcher" id="0b519f85-9333-43f0-b331-15fee2465b7a" tests="2" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 409" time="0.005"/>
+    <testcase name="Response time is less than 400ms" time="0.005"/>
+  </testsuite>
+</testsuites>

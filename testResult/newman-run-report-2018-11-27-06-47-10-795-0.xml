@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-metadata" tests="12" time="0.164">
+  <testsuite name="provisionwatcher / 280 http://localhost:48081/api/v1/provisionwatcher/id/:id" id="b191633c-a2dd-43ae-958d-8d838b886750" tests="5" failures="0" errors="0" time="0.057">
+    <testcase name="Status code is 200" time="0.057"/>
+    <testcase name="Response time is less than 400ms" time="0.057"/>
+    <testcase name="Has Content-Type" time="0.057"/>
+    <testcase name="Content-Type is application/json" time="0.057"/>
+    <testcase name="Body has True" time="0.057"/>
+  </testsuite>
+  <testsuite name="provisionwatcher / 283 http://localhost:48081/api/v1/provisionwatcher/:id" id="dafd012f-7dee-4c74-b66f-038ad51ec043" tests="5" failures="0" errors="0" time="0.012">
+    <testcase name="Status code is 200" time="0.012"/>
+    <testcase name="Response time is less than 400ms" time="0.012"/>
+    <testcase name="Has Content-Type" time="0.012"/>
+    <testcase name="Content-Type is application/json" time="0.012"/>
+    <testcase name="Is valid response schema" time="0.012"/>
+  </testsuite>
+  <testsuite name="provisionwatcher / 288 http://localhost:48081/api/v1/provisionwatcher/name/:name" id="c0184b70-3fc3-4e3d-a98e-0372fa21053b" tests="5" failures="0" errors="0" time="0.007">
+    <testcase name="Status code is 200" time="0.007"/>
+    <testcase name="Response time is less than 400ms" time="0.007"/>
+    <testcase name="Has Content-Type" time="0.007"/>
+    <testcase name="Content-Type is application/json" time="0.007"/>
+    <testcase name="Is valid response schema" time="0.007"/>
+  </testsuite>
+  <testsuite name="provisionwatcher / 285 http://localhost:48081/api/v1/provisionwatcher/name/:name" id="d56adcc6-c7b2-4af6-9691-58d5f7884b9c" tests="5" failures="0" errors="0" time="0.013">
+    <testcase name="Status code is 200" time="0.013"/>
+    <testcase name="Response time is less than 400ms" time="0.013"/>
+    <testcase name="Has Content-Type" time="0.013"/>
+    <testcase name="Content-Type is application/json" time="0.013"/>
+    <testcase name="Body has True" time="0.013"/>
+  </testsuite>
+  <testsuite name="provisionwatcher / 290 http://localhost:48081/api/v1/provisionwatcher/profile/:profileId" id="7702d4e6-50cf-4a1a-bae2-8c5656a98df4" tests="5" failures="0" errors="0" time="0.006">
+    <testcase name="Status code is 200" time="0.006"/>
+    <testcase name="Response time is less than 400ms" time="0.006"/>
+    <testcase name="Has Content-Type" time="0.006"/>
+    <testcase name="Content-Type is application/json" time="0.006"/>
+    <testcase name="Is valid response schema" time="0.006"/>
+  </testsuite>
+  <testsuite name="provisionwatcher / 293 http://localhost:48081/api/v1/provisionwatcher/profilename/:profilename" id="15b01084-afc0-4c03-9a5b-0b3f3f74c7dc" tests="5" failures="0" errors="0" time="0.007">
+    <testcase name="Status code is 200" time="0.007"/>
+    <testcase name="Response time is less than 400ms" time="0.007"/>
+    <testcase name="Has Content-Type" time="0.007"/>
+    <testcase name="Content-Type is application/json" time="0.007"/>
+    <testcase name="Is valid response schema" time="0.007"/>
+  </testsuite>
+  <testsuite name="provisionwatcher / 296 http://localhost:48081/api/v1/provisionwatcher/service/:serviceId" id="bd8fed89-7183-4681-bd68-2dad103aec58" tests="5" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 200" time="0.005"/>
+    <testcase name="Response time is less than 400ms" time="0.005"/>
+    <testcase name="Has Content-Type" time="0.005"/>
+    <testcase name="Content-Type is application/json" time="0.005"/>
+    <testcase name="Is valid response schema" time="0.005"/>
+  </testsuite>
+  <testsuite name="provisionwatcher / 299 http://localhost:48081/api/v1/provisionwatcher/servicename/:servicename" id="77568184-384b-4f41-ba70-34611aacca41" tests="5" failures="0" errors="0" time="0.026">
+    <testcase name="Status code is 200" time="0.026"/>
+    <testcase name="Response time is less than 400ms" time="0.026"/>
+    <testcase name="Has Content-Type" time="0.026"/>
+    <testcase name="Content-Type is application/json" time="0.026"/>
+    <testcase name="Is valid response schema" time="0.026"/>
+  </testsuite>
+  <testsuite name="provisionwatcher / 302 http://localhost:48081/api/v1/provisionwatcher/identifier/:key/{value}" id="5471fbd7-1fff-4987-9806-262dc95d2efd" tests="5" failures="0" errors="0" time="0.006">
+    <testcase name="Status code is 200" time="0.006"/>
+    <testcase name="Response time is less than 400ms" time="0.006"/>
+    <testcase name="Has Content-Type" time="0.006"/>
+    <testcase name="Content-Type is application/json" time="0.006"/>
+    <testcase name="Is valid response schema" time="0.006"/>
+  </testsuite>
+  <testsuite name="provisionwatcher / 310 http://localhost:48081/api/v1/provisionwatcher" id="4c6b3c57-fa0c-48a2-9197-5465e7887d2e" tests="5" failures="0" errors="0" time="0.003">
+    <testcase name="Status code is 200" time="0.003"/>
+    <testcase name="Response time is less than 400ms" time="0.003"/>
+    <testcase name="Has Content-Type" time="0.003"/>
+    <testcase name="Content-Type is application/json" time="0.003"/>
+    <testcase name="Is Valid Response Schema" time="0.003"/>
+  </testsuite>
+  <testsuite name="provisionwatcher / 307 http://localhost:48081/api/v1/provisionwatcher" id="b87dbbff-f82f-4604-ad5b-e137f449af5c" tests="5" failures="0" errors="0" time="0.012">
+    <testcase name="Status code is 200" time="0.012"/>
+    <testcase name="Response time is less than 400ms" time="0.012"/>
+    <testcase name="Has Content-Type" time="0.012"/>
+    <testcase name="Content-Type is application/json" time="0.012"/>
+    <testcase name="Body has True" time="0.012"/>
+  </testsuite>
+  <testsuite name="provisionwatcher / 304 http://localhost:48081/api/v1/provisionwatcher" id="14465490-1a36-4919-b56e-bda592c31146" tests="5" failures="0" errors="0" time="0.010">
+    <testcase name="Status code is 200" time="0.010"/>
+    <testcase name="Response time is less than 400ms" time="0.010"/>
+    <testcase name="Has Content-Type" time="0.010"/>
+    <testcase name="Content-Type is text/plain" time="0.010"/>
+    <testcase name="Does body contains Id" time="0.010"/>
+  </testsuite>
+</testsuites>

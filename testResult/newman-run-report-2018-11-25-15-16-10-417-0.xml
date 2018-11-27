@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-data" tests="9" time="0.129">
+  <testsuite name="valuedescriptor / 73 http://localhost:48080/api/v1/valuedescriptor" id="ced6ad15-225c-49f3-983f-ecd3cb147f1b" tests="5" failures="0" errors="0" time="0.065">
+    <testcase name="Status code is 200" time="0.065"/>
+    <testcase name="Response time is less than 800ms" time="0.065"/>
+    <testcase name="Has Content-Type" time="0.065"/>
+    <testcase name="Content-Type is application/json" time="0.065"/>
+    <testcase name="Is Valid Response Schema" time="0.065"/>
+  </testsuite>
+  <testsuite name="valuedescriptor / 71 http://localhost:48080/api/v1/valuedescriptor" id="6fe9996d-f58c-45bc-a740-d764b3b6336d" tests="5" failures="0" errors="0" time="0.017">
+    <testcase name="Status code is 200" time="0.017"/>
+    <testcase name="Response time is less than 800ms" time="0.017"/>
+    <testcase name="Has Content-Type" time="0.017"/>
+    <testcase name="Content-Type is application/json" time="0.017"/>
+    <testcase name="Body has True" time="0.017"/>
+  </testsuite>
+  <testsuite name="valuedescriptor / 68 http://localhost:48080/api/v1/valuedescriptor" id="8d74ce00-7b2e-4a86-a1b1-1ebf013bc842" tests="5" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 200" time="0.005"/>
+    <testcase name="Response time is less than 200ms" time="0.005"/>
+    <testcase name="Has Content-Type" time="0.005"/>
+    <testcase name="Content-Type is text/plain" time="0.005"/>
+    <testcase name="Response Object id" time="0.005"/>
+  </testsuite>
+  <testsuite name="valuedescriptor / 76 http://localhost:48080/api/v1/valuedescriptor/id/:id" id="53fa9dfa-1f4f-4ce7-8299-54f72a528602" tests="5" failures="0" errors="0" time="0.010">
+    <testcase name="Status code is 200" time="0.010"/>
+    <testcase name="Response time is less than 800ms" time="0.010"/>
+    <testcase name="Has Content-Type" time="0.010"/>
+    <testcase name="Content-Type is application/json" time="0.010"/>
+    <testcase name="Request Objec Deleted" time="0.010"/>
+  </testsuite>
+  <testsuite name="valuedescriptor / 80 http://localhost:48080/api/v1/valuedescriptor/name/:name" id="826ffa44-d380-47a8-9bf7-8147512a627c" tests="5" failures="0" errors="0" time="0.003">
+    <testcase name="Status code is 200" time="0.003"/>
+    <testcase name="Response time is less than 800ms" time="0.003"/>
+    <testcase name="Has Content-Type" time="0.003"/>
+    <testcase name="Content-Type is application/json" time="0.003"/>
+    <testcase name="Is Valid Response Schema" time="0.003"/>
+  </testsuite>
+  <testsuite name="valuedescriptor / 82 http://localhost:48080/api/v1/valuedescriptor/name/:name" id="afab288b-851a-4023-9424-c204812dde48" tests="5" failures="0" errors="0" time="0.004">
+    <testcase name="Status code is 200" time="0.004"/>
+    <testcase name="Response time is less than 800ms" time="0.004"/>
+    <testcase name="Has Content-Type" time="0.004"/>
+    <testcase name="Content-Type is application/json" time="0.004"/>
+    <testcase name="Record Deleted" time="0.004"/>
+  </testsuite>
+  <testsuite name="valuedescriptor / 86 http://localhost:48080/api/v1/valuedescriptor/:id" id="88286f27-6fc1-4ca5-97ab-720e2a52e4b0" tests="5" failures="0" errors="0" time="0.003">
+    <testcase name="Status code is 200" time="0.003"/>
+    <testcase name="Response time is less than 800ms" time="0.003"/>
+    <testcase name="Has Content-Type" time="0.003"/>
+    <testcase name="Content-Type is application/json" time="0.003"/>
+    <testcase name="Is Valid Response Schema" time="0.003"/>
+  </testsuite>
+  <testsuite name="valuedescriptor / 88 http://localhost:48080/api/v1/valuedescriptor/uomlabel/:uomLabel" id="06705cbf-9309-4ecd-aef2-9723d6ac31ab" tests="5" failures="0" errors="0" time="0.020">
+    <testcase name="Status code is 200" time="0.020"/>
+    <testcase name="Response time is less than 800ms" time="0.020"/>
+    <testcase name="Has Content-Type" time="0.020"/>
+    <testcase name="Content-Type is application/json" time="0.020"/>
+    <testcase name="Is Valid Response Schema" time="0.020"/>
+  </testsuite>
+  <testsuite name="valuedescriptor / 90 http://localhost:48080/api/v1/valuedescriptor/label/:label" id="0f059f33-58a6-4e4c-a91f-dac314f3ab27" tests="5" failures="0" errors="0" time="0.002">
+    <testcase name="Status code is 200" time="0.002"/>
+    <testcase name="Response time is less than 800ms" time="0.002"/>
+    <testcase name="Has Content-Type" time="0.002"/>
+    <testcase name="Content-Type is application/json" time="0.002"/>
+    <testcase name="Is Valid Response Schema" time="0.002"/>
+  </testsuite>
+</testsuites>

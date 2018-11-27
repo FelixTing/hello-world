@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-metadata" tests="6" time="0.089">
+  <testsuite name="command / 339 http://localhost:48081/api/v1/command/id/:id" id="7ff86dd1-1e98-4d64-ba1f-41d5ef88d651" tests="5" failures="0" errors="0" time="0.051">
+    <testcase name="Status code is 200" time="0.051"/>
+    <testcase name="Response time is less than 400ms" time="0.051"/>
+    <testcase name="Has Content-Type" time="0.051"/>
+    <testcase name="Content-Type is application/json" time="0.051"/>
+    <testcase name="Body has True" time="0.051"/>
+  </testsuite>
+  <testsuite name="command / 342 http://localhost:48081/api/v1/command/:id" id="841c4fb2-21c0-4ad7-94c1-b30f31565802" tests="5" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 200" time="0.005"/>
+    <testcase name="Response time is less than 400ms" time="0.005"/>
+    <testcase name="Has Content-Type" time="0.005"/>
+    <testcase name="Content-Type is application/json" time="0.005"/>
+    <testcase name="Is Valid Response Schema" time="0.005"/>
+  </testsuite>
+  <testsuite name="command / 344 http://localhost:48081/api/v1/command/name/:name" id="2ff30d91-8147-4a55-8d65-1db471c22697" tests="4" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 200" time="0.005"/>
+    <testcase name="Response time is less than 400ms" time="0.005"/>
+    <testcase name="Has Content-Type" time="0.005"/>
+    <testcase name="Content-Type is application/json" time="0.005"/>
+  </testsuite>
+  <testsuite name="command / 352 http://localhost:48081/api/v1/command" id="ba60ffc6-4d4e-4d3f-b75f-303c7a03368a" tests="4" failures="0" errors="0" time="0.007">
+    <testcase name="Status code is 200" time="0.007"/>
+    <testcase name="Response time is less than 400ms" time="0.007"/>
+    <testcase name="Has Content-Type" time="0.007"/>
+    <testcase name="Content-Type is application/json" time="0.007"/>
+  </testsuite>
+  <testsuite name="command / 348 http://localhost:48081/api/v1/command" id="bbf7463e-7904-4332-bf0d-b4ea433c7f08" tests="4" failures="0" errors="0" time="0.009">
+    <testcase name="Status code is 200" time="0.009"/>
+    <testcase name="Response time is less than 400ms" time="0.009"/>
+    <testcase name="Has Content-Type" time="0.009"/>
+    <testcase name="Body has True" time="0.009"/>
+  </testsuite>
+  <testsuite name="command / 346 http://localhost:48081/api/v1/command" id="ea21196f-8ec3-4516-a9c7-0779c1ffb0bf" tests="5" failures="0" errors="0" time="0.012">
+    <testcase name="Status code is 200" time="0.012"/>
+    <testcase name="Response time is less than 400ms" time="0.012"/>
+    <testcase name="Has Content-Type" time="0.012"/>
+    <testcase name="Content-Type is text/plain" time="0.012"/>
+    <testcase name="Is Body Conatins Id" time="0.012"/>
+  </testsuite>
+</testsuites>

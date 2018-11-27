@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-metadata" tests="7" time="0.098">
+  <testsuite name="scheduleevent / 240 http://localhost:48081/api/v1/scheduleevent/id/:id" id="6972990e-6ca9-4835-9cbf-dc7d11f45749" tests="5" failures="0" errors="0" time="0.038">
+    <testcase name="Record Deleted" time="0.038"/>
+    <testcase name="Response time is less than 400ms" time="0.038"/>
+    <testcase name="Has Content-Type" time="0.038"/>
+    <testcase name="Content-Type is application/json" time="0.038"/>
+    <testcase name="Request Object Deleted" time="0.038"/>
+  </testsuite>
+  <testsuite name="scheduleevent / 248 http://localhost:48081/api/v1/scheduleevent/name/:name" id="280dc4ca-77d8-44df-a7e9-fa00272dcb03" tests="5" failures="0" errors="0" time="0.006">
+    <testcase name="Status code is 200" time="0.006"/>
+    <testcase name="Response time is less than 400ms" time="0.006"/>
+    <testcase name="Has Content-Type" time="0.006"/>
+    <testcase name="Content-Type is application/json" time="0.006"/>
+    <testcase name="Is valid response schema" time="0.006"/>
+  </testsuite>
+  <testsuite name="scheduleevent / 244 http://localhost:48081/api/v1/scheduleevent/name/:name" id="a56503dd-2dc6-4398-bd55-8376345b54e2" tests="5" failures="0" errors="0" time="0.013">
+    <testcase name="Record Deleted" time="0.013"/>
+    <testcase name="Response time is less than 400ms" time="0.013"/>
+    <testcase name="Has Content-Type" time="0.013"/>
+    <testcase name="Content-Type is application/json" time="0.013"/>
+    <testcase name="Request Object Deleted" time="0.013"/>
+  </testsuite>
+  <testsuite name="scheduleevent / 250 http://localhost:48081/api/v1/scheduleevent/:id" id="297a775c-e094-4d4e-acd5-373e894eeb19" tests="5" failures="0" errors="0" time="0.003">
+    <testcase name="Status code is 200" time="0.003"/>
+    <testcase name="Response time is less than 400" time="0.003"/>
+    <testcase name="Has Content-Type" time="0.003"/>
+    <testcase name="Content-Type is application/json" time="0.003"/>
+    <testcase name="Is Valid Response Schema" time="0.003"/>
+  </testsuite>
+  <testsuite name="scheduleevent / 260 http://localhost:48081/api/v1/scheduleevent" id="b638e028-5c77-4290-8963-7a48443125ed" tests="5" failures="0" errors="0" time="0.008">
+    <testcase name="Status code is 200" time="0.008"/>
+    <testcase name="Response time is less than 400ms" time="0.008"/>
+    <testcase name="Has Content-Type" time="0.008"/>
+    <testcase name="Content-Type is application/json" time="0.008"/>
+    <testcase name="Is Valid Response Schema" time="0.008"/>
+  </testsuite>
+  <testsuite name="scheduleevent / 256 http://localhost:48081/api/v1/scheduleevent" id="a42127a7-2e55-4165-ae04-e85f139bf25d" tests="5" failures="0" errors="0" time="0.006">
+    <testcase name="Status code is 200" time="0.006"/>
+    <testcase name="Response time is less than 400ms" time="0.006"/>
+    <testcase name="Has Content-Type" time="0.006"/>
+    <testcase name="Content-Type is application/json" time="0.006"/>
+    <testcase name="Body has True" time="0.006"/>
+  </testsuite>
+  <testsuite name="scheduleevent / 252 http://localhost:48081/api/v1/scheduleevent" id="afebfaaf-7dc5-48ff-9253-a09e33a7c0ce" tests="5" failures="0" errors="0" time="0.024">
+    <testcase name="Status code is 200" time="0.024"/>
+    <testcase name="Response time is less than 400ms" time="0.024"/>
+    <testcase name="Has Content-Type" time="0.024"/>
+    <testcase name="Content-Type is text/plain" time="0.024"/>
+    <testcase name="Does body contains Id" time="0.024"/>
+  </testsuite>
+</testsuites>

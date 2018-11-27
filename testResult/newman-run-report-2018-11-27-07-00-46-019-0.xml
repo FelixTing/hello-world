@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-metadata" tests="9" time="0.076">
+  <testsuite name="devicereport / 178 http://localhost:48081/api/v1/devicereport/{valueDescriptorsFor}/{DeviceName}" id="c604bcc6-fbb9-49b7-befe-286e1fae9d77" tests="0" failures="0" errors="0" time="0.037"/>
+  <testsuite name="devicereport / 180 http://localhost:48081/api/v1/devicereport" id="e9f3f7d3-97ee-4469-a5ef-b437491a1909" tests="0" failures="0" errors="0" time="0.007"/>
+  <testsuite name="devicereport / 183 http://localhost:48081/api/v1/devicereport" id="099c4f06-f566-4540-99fe-37ba0bdc3990" tests="0" failures="0" errors="0" time="0.002"/>
+  <testsuite name="devicereport / 186 http://localhost:48081/api/v1/devicereport" id="fa47996c-ecd5-43fc-bbed-0ddc408e76a6" tests="0" failures="0" errors="0" time="0.003"/>
+  <testsuite name="devicereport / 166 http://localhost:48081/api/v1/devicereport/id/{DeviceReportId}" id="b36a79bc-70fe-4070-bee9-131581bcbed1" tests="5" failures="0" errors="0" time="0.010">
+    <testcase name="Status code is 200" time="0.010"/>
+    <testcase name="Response time is less than 400ms" time="0.010"/>
+    <testcase name="Has Content-Type" time="0.010"/>
+    <testcase name="Content-Type is application/json" time="0.010"/>
+    <testcase name="Request Objec Deleted" time="0.010"/>
+  </testsuite>
+  <testsuite name="devicereport / 169 http://localhost:48081/api/v1/devicereport/name/{DeviceReportName}" id="76e5bbea-b6ce-4d60-972b-55168aaae39c" tests="5" failures="0" errors="0" time="0.008">
+    <testcase name="Status code is 200" time="0.008"/>
+    <testcase name="Response time is less than 400ms" time="0.008"/>
+    <testcase name="Has Content-Type" time="0.008"/>
+    <testcase name="Content-Type is application/json" time="0.008"/>
+    <testcase name="Request Objec Deleted" time="0.008"/>
+  </testsuite>
+  <testsuite name="devicereport / 172 http://localhost:48081/api/v1/devicereport/name/{DeviceReportName}" id="d621248b-7490-4f99-a726-1986e9122932" tests="0" failures="0" errors="0" time="0.003"/>
+  <testsuite name="devicereport / 174 http://localhost:48081/api/v1/devicereport/{DeviceReportId}" id="23ebba79-b2ee-453b-b86d-ff2d575402ff" tests="0" failures="0" errors="0" time="0.002"/>
+  <testsuite name="devicereport / 176 http://localhost:48081/api/v1/devicereport/devicename/{DeviceName}" id="2255e39b-698a-4bec-90bb-198047ace914" tests="0" failures="0" errors="0" time="0.004"/>
+</testsuites>

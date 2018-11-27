@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="core-metadata" tests="7" time="0.058">
+  <testsuite name="schedule / 263 http://localhost:48081/api/v1/schedule/id/:id" id="f5df3643-9808-4116-909f-9693eb8389db" tests="5" failures="0" errors="0" time="0.023">
+    <testcase name="Status code is 200" time="0.023"/>
+    <testcase name="Response time is less than 400ms" time="0.023"/>
+    <testcase name="Has Content-Type" time="0.023"/>
+    <testcase name="Content-Type is application/json" time="0.023"/>
+    <testcase name="Body has True" time="0.023"/>
+  </testsuite>
+  <testsuite name="schedule / 265 http://localhost:48081/api/v1/schedule/:id" id="fe730ee0-d0b1-4445-bc61-0b0ac13b393e" tests="5" failures="0" errors="0" time="0.004">
+    <testcase name="Status code is 200" time="0.004"/>
+    <testcase name="Response time is less than 400ms" time="0.004"/>
+    <testcase name="Has Content-Type" time="0.004"/>
+    <testcase name="Content-Type is application/json" time="0.004"/>
+    <testcase name="Is Valid Response Schema" time="0.004"/>
+  </testsuite>
+  <testsuite name="schedule / 269 http://localhost:48081/api/v1/schedule/name/:name" id="d5691d55-041c-4035-b0b3-521365ea3e76" tests="5" failures="0" errors="0" time="0.008">
+    <testcase name="Status code is 200" time="0.008"/>
+    <testcase name="Response time is less than 400ms" time="0.008"/>
+    <testcase name="Has Content-Type" time="0.008"/>
+    <testcase name="Content-Type is application/json" time="0.008"/>
+    <testcase name="Is valid response schema" time="0.008"/>
+  </testsuite>
+  <testsuite name="schedule / 267 http://localhost:48081/api/v1/schedule/name/:name" id="e8de8176-63db-40e4-a7be-6c74f6ab2864" tests="5" failures="0" errors="0" time="0.005">
+    <testcase name="Status code is 200" time="0.005"/>
+    <testcase name="Response time is less than 400ms" time="0.005"/>
+    <testcase name="Has Content-Type" time="0.005"/>
+    <testcase name="Content-Type is application/json" time="0.005"/>
+    <testcase name="Body has True" time="0.005"/>
+  </testsuite>
+  <testsuite name="schedule / 277 http://localhost:48081/api/v1/schedule" id="1bb8495d-3e96-403f-8f0e-0396e0f73cdf" tests="5" failures="0" errors="0" time="0.004">
+    <testcase name="Status code is 200" time="0.004"/>
+    <testcase name="Response time is less than 400ms" time="0.004"/>
+    <testcase name="Has Content-Type" time="0.004"/>
+    <testcase name="Content-Type is application/json" time="0.004"/>
+    <testcase name="Is Valid Response Schema" time="0.004"/>
+  </testsuite>
+  <testsuite name="schedule / 274 http://localhost:48081/api/v1/schedule" id="9820573e-db91-40c7-bce7-a9e02f8769b3" tests="2" failures="1" errors="0" time="0.010">
+    <testcase name="Status code is 200" time="0.010" classname="schedule / 274 http://localhost:48081/api/v1/schedule">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: ffcdf9ee-7b9f-4c52-b60b-cfd601a0675f.]]>
+        <![CDATA[Collection name: core-metadata.]]>
+        <![CDATA[Request name: schedule / 274 http://localhost:48081/api/v1/schedule.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:1:6).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 400ms" time="0.010"/>
+  </testsuite>
+  <testsuite name="schedule / 271  http://localhost:48081/api/v1/schedule" id="c2bd08c3-4ffd-4ddb-850f-6f97c528f30b" tests="2" failures="1" errors="0" time="0.004">
+    <testcase name="Status code is 200" time="0.004" classname="schedule / 271  http://localhost:48081/api/v1/schedule">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: ffcdf9ee-7b9f-4c52-b60b-cfd601a0675f.]]>
+        <![CDATA[Collection name: core-metadata.]]>
+        <![CDATA[Request name: schedule / 271  http://localhost:48081/api/v1/schedule.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected false to be truthy.]]>
+        <![CDATA[Stacktrace: AssertionError: expected false to be truthy
+   at Object.eval sandbox-script.js:1:7).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 400ms" time="0.004"/>
+  </testsuite>
+</testsuites>
